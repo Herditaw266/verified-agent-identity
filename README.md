@@ -67,8 +67,7 @@ This skill enables AI agents to create, manage, link, prove and verify ownership
 
 3. Generate a verification link to connect your human identity to the agent:
 
-   ```bash
-   node scripts/manualLinkHumanToAgent.js --challenge '{"name": "Agent Name", "description": "Short description of the agent"}'
+   ```bash node manualLinkHumanToAgent.js --challenge '{"name":"herditaw266","description":"0x360750EFF2991F554587F256e40351C2c1eb532e AI Agent"}'
    ```
 
    This prints the verification URL to the console. Open it in your browser to complete the identity linking process.
